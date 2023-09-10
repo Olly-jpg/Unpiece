@@ -1,0 +1,23 @@
+[	
+	{
+		"name": "Red Line",
+		"type": "NaturalWonder",
+		"occursOn": ["Ocean","Coast","Grassland","Plains","Tundra","Mountain","Desert","Snow","Hill"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"uniques": [
+		 "Units ending their turn on this terrain take [50] damage","Must be adjacent to [0] to [1] [Red Line] tiles",
+		 "Occurs on latitudes from [1] to [99] percent of distance equator to pole",
+		 "Occurs in groups of [50] to [150] tiles","Neighboring tiles except [Ocean] will convert to [Coast]"],
+		"weight": 0
+	},
+	{
+		"name": "El Dorado",
+		"type": "NaturalWonder",
+		"occursOn": ["Ocean"],
+		"uniques": ["Must be adjacent to [6] [Ocean] tiles","Neighboring tiles will convert to [Mountain]"],
+		"weight": 100
+	}
+]

@@ -1,0 +1,35 @@
+[	
+    {
+    "name": "Barbarians",
+    "outerColor": [0,0,0],
+    "innerColor": [250,250,250],
+    "uniques": ["When defeating a [All] unit, earn [0] Gold and recruit it <with [15]% chance>"]
+    },
+    {
+    "name": "Dressrosa",
+    "leaderName": "Donquixote Doflamingo",
+    "adjective": "Doffy's",
+    "startBias":["Avoid [Tundra]"],
+    "preferred": "Domination",
+    "outerColor": [255,5,205],
+	"innerColor": [255,218,5],
+    "uniques": ["[-50]% growth [in all cities]","[+100]% [Production] [in all cities] <during We Love The King Day>"],
+    "cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
+        "Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+        "Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+        "Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"]
+    },
+    {
+        "name": "Straw Hat Pirates",
+        "leaderName": "Monkey D. Luffy",
+        "adjective": "Luffy's",
+        "preferred": "Domination",
+        "outerColor": [255,175,5],
+        "innerColor": [255,5,47],
+        "uniques": ["When defeating a [All] unit, earn [0] Gold and recruit it <with [15]% chance>"],
+        "cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
+        "Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+        "Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+        "Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"]
+    }
+]

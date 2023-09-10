@@ -1,0 +1,94 @@
+[
+	{
+		"name": "Conqueror's Haki",
+		"uniques": ["[+1]% Strength"]
+	},
+	{
+		"name": "Haki Training",
+		"uniques": ["[+20]% XP gained from combat","Heal this unit by [10] HP"],
+		"unitTypes": ["Sword"],
+		"column": 20,
+		"row": 5
+	},
+
+
+
+
+	{
+		"name": "Rokushiki Training",
+		"uniques": ["[+40]% XP gained from combat","Heal this unit by [5] HP"],
+		"unitTypes": ["Sword"],
+		"column": 2,
+		"row": 8
+	},
+	{
+		"name": "Geppo",
+		"prerequisites": ["Rokushiki Training"],
+		"uniques": ["Ignores terrain cost","[+1] Movement","Heal this unit by [5] HP"],
+		"unitTypes": ["Sword"],
+		"column": 2,
+		"row": 9
+	},
+	{
+		"name": "Soru",
+		"prerequisites": ["Rokushiki Training"],
+		"uniques": ["Can move after attacking","[1] additional attacks per turn","Heal this unit by [5] HP"],
+		"unitTypes": ["Sword"],
+		"column": 4,
+		"row": 9
+	},
+	{
+		"name": "Tekkai",
+		"prerequisites": ["Rokushiki Training"],
+		"uniques": ["[+10]% Strength","[+20]% Strength <when defending>","Heal this unit by [5] HP"],
+		"unitTypes": ["Sword"],
+		"column": 6,
+		"row": 9
+	},
+	{
+		"name": "Rankyaku",
+		"prerequisites": ["Rokushiki Training"],
+		"uniques": ["[+1] Range","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","Heal this unit by [5] HP"],
+		"unitTypes": ["Sword"],
+		"column": 8,
+		"row": 9
+	},
+	{
+		"name": "Shigan",
+		"prerequisites": ["Rokushiki Training"],
+		"uniques": ["[+30]% Strength <vs [Wounded] units>","Earn [30]% of the damage done to [Wounded] units as [Gold]","Heal this unit by [5] HP"],
+		"unitTypes": ["Sword"],
+		"column": 10,
+		"row": 9
+	},
+	{
+		"name": "Kami-e",
+		"prerequisites": ["Rokushiki Training"],
+		"uniques": ["May withdraw before melee ([50]%)","Heal this unit by [5] HP"],
+		"unitTypes": ["Sword"],
+		"column": 12,
+		"row": 9
+	},
+
+
+
+
+
+
+	{
+		"name": "Conqueror's Haki I",
+		"prerequisites": ["Conqueror's Haki"],
+		"uniques": ["[+4]% Strength","[-5]% Strength for enemy [All] units in adjacent [All] tiles","All adjacent units heal [+5] HP when healing","Heal this unit by [10] HP"],
+		"unitTypes": ["Sword"],
+		"column": 27,
+		"row": 5
+	},
+	{
+		"name": "Conqueror's Haki II",
+		"prerequisites": ["Conqueror's Haki I"],
+		"uniques": ["[+5]% Strength","[-5]% Strength for enemy [All] units in adjacent [All] tiles","All adjacent units heal [+5] HP when healing","Heal this unit by [10] HP"],
+		"unitTypes": ["Sword"],
+		"column": 28,
+		"row": 5
+	}
+]
