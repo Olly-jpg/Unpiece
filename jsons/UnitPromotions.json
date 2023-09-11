@@ -1,12 +1,8 @@
 [
 	{
-		"name": "Conqueror's Haki",
-		"uniques": ["[+1]% Strength"]
-	},
-	{
-		"name": "Haki Training",
+		"name": "Haki",
 		"uniques": ["[+20]% XP gained from combat","Heal this unit by [10] HP"],
-		"unitTypes": ["Sword"],
+		"unitTypes": ["Devil Fruit","Logia","Swordsman","Samurai","Marksman","Fighter","Leader"],
 		"column": 20,
 		"row": 5
 	},
@@ -15,57 +11,57 @@
 
 
 	{
-		"name": "Rokushiki Training",
+		"name": "Rokushiki",
 		"uniques": ["[+40]% XP gained from combat","Heal this unit by [5] HP"],
-		"unitTypes": ["Sword"],
+		"unitTypes": ["Devil Fruit","Logia","Swordsman","Samurai","Marksman","Fighter","Leader"],
 		"column": 2,
 		"row": 8
 	},
 	{
 		"name": "Geppo",
-		"prerequisites": ["Rokushiki Training"],
+		"prerequisites": ["Rokushiki"],
 		"uniques": ["Ignores terrain cost","[+1] Movement","Heal this unit by [5] HP"],
-		"unitTypes": ["Sword"],
+		"unitTypes": ["Devil Fruit","Logia","Swordsman","Samurai","Marksman","Fighter","Leader"],
 		"column": 2,
 		"row": 9
 	},
 	{
 		"name": "Soru",
-		"prerequisites": ["Rokushiki Training"],
+		"prerequisites": ["Rokushiki"],
 		"uniques": ["Can move after attacking","[1] additional attacks per turn","Heal this unit by [5] HP"],
-		"unitTypes": ["Sword"],
+		"unitTypes": ["Devil Fruit","Logia","Swordsman","Samurai","Marksman","Fighter","Leader"],
 		"column": 4,
 		"row": 9
 	},
 	{
 		"name": "Tekkai",
-		"prerequisites": ["Rokushiki Training"],
+		"prerequisites": ["Rokushiki"],
 		"uniques": ["[+10]% Strength","[+20]% Strength <when defending>","Heal this unit by [5] HP"],
-		"unitTypes": ["Sword"],
+		"unitTypes": ["Devil Fruit","Logia","Swordsman","Samurai","Marksman","Fighter","Leader"],
 		"column": 6,
 		"row": 9
 	},
 	{
 		"name": "Rankyaku",
-		"prerequisites": ["Rokushiki Training"],
+		"prerequisites": ["Rokushiki"],
 		"uniques": ["[+1] Range","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","Heal this unit by [5] HP"],
-		"unitTypes": ["Sword"],
+		"unitTypes": ["Devil Fruit","Logia","Swordsman","Samurai","Marksman","Fighter","Leader"],
 		"column": 8,
 		"row": 9
 	},
 	{
 		"name": "Shigan",
-		"prerequisites": ["Rokushiki Training"],
+		"prerequisites": ["Rokushiki"],
 		"uniques": ["[+30]% Strength <vs [Wounded] units>","Earn [30]% of the damage done to [Wounded] units as [Gold]","Heal this unit by [5] HP"],
-		"unitTypes": ["Sword"],
+		"unitTypes": ["Devil Fruit","Logia","Swordsman","Samurai","Marksman","Fighter","Leader"],
 		"column": 10,
 		"row": 9
 	},
 	{
 		"name": "Kami-e",
-		"prerequisites": ["Rokushiki Training"],
+		"prerequisites": ["Rokushiki"],
 		"uniques": ["May withdraw before melee ([50]%)","Heal this unit by [5] HP"],
-		"unitTypes": ["Sword"],
+		"unitTypes": ["Devil Fruit","Logia","Swordsman","Samurai","Marksman","Fighter","Leader"],
 		"column": 12,
 		"row": 9
 	},
@@ -74,12 +70,15 @@
 
 
 
-
+	{
+		"name": "Conqueror's Haki",
+		"uniques": ["[+1]% Strength"]
+	},
 	{
 		"name": "Conqueror's Haki I",
 		"prerequisites": ["Conqueror's Haki"],
 		"uniques": ["[+4]% Strength","[-5]% Strength for enemy [All] units in adjacent [All] tiles","All adjacent units heal [+5] HP when healing","Heal this unit by [10] HP"],
-		"unitTypes": ["Sword"],
+		"unitTypes": ["Devil Fruit","Logia","Swordsman","Samurai","Marksman","Fighter","Leader"],
 		"column": 27,
 		"row": 5
 	},
@@ -87,7 +86,7 @@
 		"name": "Conqueror's Haki II",
 		"prerequisites": ["Conqueror's Haki I"],
 		"uniques": ["[+5]% Strength","[-5]% Strength for enemy [All] units in adjacent [All] tiles","All adjacent units heal [+5] HP when healing","Heal this unit by [10] HP"],
-		"unitTypes": ["Sword"],
+		"unitTypes": ["Devil Fruit","Logia","Swordsman","Samurai","Marksman","Fighter","Leader"],
 		"column": 28,
 		"row": 5
 	}

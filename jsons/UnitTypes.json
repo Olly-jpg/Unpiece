@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land"
+    },
+    {
+        "name": "Devil Fruit",
+        "movementType": "Land",
+        "uniques": ["[-200]% Strength <when fighting in [Water] tiles>"]
+    },
+    {
+        "name": "Logia",
+        "movementType": "Land",
+        "uniques": ["[-200]% Strength <when fighting in [Water] tiles>"]
+    },
+    {
+        "name": "Swordsman",
+        "movementType": "Land"
+    },
+    {
+        "name": "Samurai",
+        "movementType": "Land"
+    },
+    {
+        "name": "Marksman",
+        "movementType": "Land"
+    },
+    {
+        "name": "Fighter",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ship",
+        "movementType": "Water"
+    },
+    {
+        "name": "Leader",
+        "movementType": "Land",
+        "uniques": ["Can carry [2] [Settler] units"]
+    },
+    {
+        "name": "Leader Water",
+        "movementType": "Water",
+        "uniques": ["Can carry [2] [Settler] units"]
+    },
+    {
+        "name": "Red Bull",
+        "movementType": "Air"
+    }
+]

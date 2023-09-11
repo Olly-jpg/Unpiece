@@ -1,0 +1,33 @@
+[
+	{
+		"name": "Leader",
+		"unitType": "Leader",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects","Can carry [2] [Red Bull] units"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is you."}
+		]
+	},
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population","Can transform to [Red Bull]","Free [Red Bull] appears"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Red Bull",
+		"unitType": "Red Bull",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Can transform to [Settler]"],
+		"hurryCostModifier": 20
+	}
+]

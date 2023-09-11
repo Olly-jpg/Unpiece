@@ -31,5 +31,19 @@
         "Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
         "Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
         "Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"]
+    },
+    {
+        "name": "Skypiea",
+        "leaderName": "Enel",
+        "adjective": "God's",
+        "startBias":["Sky"],
+        "preferred": "Domination",
+        "outerColor": [255,255,255],
+        "innerColor": [97,230,205],
+        "uniques": ["[+1] Sight <for [All] units>", "[+33]% Gold cost of acquiring tiles [in all cities]","[+5 Gold] [in capital] <before discovering [Steam Power]>"],
+        "cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
+            "Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+            "Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+            "Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"]
     }
 ]
