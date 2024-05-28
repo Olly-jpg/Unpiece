@@ -104,7 +104,8 @@
             "[+50]% Strength <for [All] units> <when below [-10] Happiness>",
             "Nullifies Growth [in all cities] <in cities following our religion>",
             "\"Borrows\" city names from other civilizations in the game"
-        ]
+        ],
+        "cities": ["Circus"]
 
     }
 ]
