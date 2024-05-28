@@ -1,9 +1,26 @@
 [
+    
+    {
+        "name": "Circus",
+        "leaderName": "Цезар Клоун",
+        "preferredVictoryType": "Neutral",
+        
+        "innerColor": [48, 5, 117],
+        "outerColor": [252, 98, 178],
+
+        "uniqueName": "Happiness",
+        "uniques": [
+            "Rebel units may spawn",
+            "[+50]% Strength <for [All] units> <when below [-10] Happiness>",
+            "Nullifies Growth [in all cities] <in cities following our religion>",
+            "\"Borrows\" city names from other civilizations in the game"],
+        "cities": ["Circus"]
+    },
     {
         "name": "Dressrosa",
         "leaderName": "Donquixote Doflamingo",
         "startBias": ["Avoid [Tundra]"],
-        "preferredVictoryType": "Scientific",
+        "preferredVictoryType": "Neutral",
 
         "innerColor": [252, 3, 161],
         "outerColor": [252, 231, 3],
@@ -16,7 +33,7 @@
         "name": "Пірати Солом'яної Брилі",
         "leaderName": "Мавпа Д. Луффі",
         "startBias": ["Coastal"],
-        "preferredVictoryType": "Scientific",
+        "preferredVictoryType": "Neutral",
 
         "innerColor": [252, 3, 3],
         "outerColor": [252, 231, 3],
@@ -37,7 +54,7 @@
         "name": "World Government",
         "leaderName": "Sakazuki",
         "startBias": [],
-        "preferredVictoryType": "Domination",
+        "preferredVictoryType": "Neutral",
 
         "innerColor": [3, 120, 255],
         "outerColor": [255, 255, 255],
@@ -49,8 +66,8 @@
             "Comment [Мирних челіків можна мобілізувати (ще не зроблено)]",
             "[+1] Movement <for [{Military} {Water}] units>",
             "[+1] Sight <for [{Military} {Water}] units>",
-            "Enables embarkation for land units <starting from the [Ancient era]>",
-            "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
+            "Enables embarkation for land units <starting from the [Golden Age of Pirates]>",
+            "Enables [All] units to enter ocean tiles <starting from the [Golden Age of Pirates]>",
             "\"Borrows\" city names from other civilizations in the game"],
         "cities": ["Marineford"]
     },
@@ -58,7 +75,7 @@
         "name": "Whole Cake Island",
         "leaderName": "Charlotte Linlin",
         "startBias": ["Coastal"],
-        "preferredVictoryType": "Scientific",
+        "preferredVictoryType": "Neutral",
 
         "innerColor": [252, 3, 161],
         "outerColor": [255, 212, 245],
@@ -75,7 +92,7 @@
         "name": "Wano",
         "leaderName": "KAIDO",
         "startBias": [],
-        "preferredVictoryType": "Scientific",
+        "preferredVictoryType": "Neutral",
 
         "innerColor": [18, 0, 0],
         "outerColor": [145, 3, 3],
@@ -89,23 +106,5 @@
             "[+3 Happiness] in cities on [Fresh Water] tiles",
             "\"Borrows\" city names from other civilizations in the game"],
         "cities": ["Onigashima"]
-    },
-    {
-        "name": "Circus",
-        "leaderName": "Цезар Клоун",
-        "preferredVictoryType": "Neutral",
-        
-        "innerColor": [48, 5, 117],
-        "outerColor": [252, 98, 178],
-
-        "uniqueName": "Happiness",
-        "uniques": [
-            "Rebel units may spawn",
-            "[+50]% Strength <for [All] units> <when below [-10] Happiness>",
-            "Nullifies Growth [in all cities] <in cities following our religion>",
-            "\"Borrows\" city names from other civilizations in the game"
-        ],
-        "cities": ["Circus"]
-
     }
 ]

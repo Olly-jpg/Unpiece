@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Golden Age of Pirates",
+        "researchAgreementCost": 100,
+        "iconRGB": [100, 100, 100],
+        "startingSettlerCount": 1,
+        "startingMilitaryUnitCount": 0
+    }
+]
+
+
