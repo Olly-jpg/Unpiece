@@ -89,5 +89,22 @@
             "[+3 Happiness] in cities on [Fresh Water] tiles",
             "\"Borrows\" city names from other civilizations in the game"],
         "cities": ["Onigashima"]
+    },
+    {
+        "name": "Circus",
+        "leaderName": "Цезар Клоун",
+        "preferredVictoryType": "Neutral",
+        
+        "innerColor": [48, 5, 117],
+        "outerColor": [252, 98, 178],
+
+        "uniqueName": "Happiness",
+        "uniques": [
+            "Rebel units may spawn",
+            "[+50]% Strength <for [All] units> <when below [-10] Happiness>",
+            "Nullifies Growth [in all cities] <in cities following our religion>",
+            "\"Borrows\" city names from other civilizations in the game"
+        ]
+
     }
 ]
