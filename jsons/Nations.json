@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Dressrosa",
+        "leaderName": "Donquixote Doflamingo",
+        "startBias": ["Avoid [Tundra]"],
+        "preferredVictoryType": "Scientific",
+
+        "innerColor": [252, 3, 161],
+        "outerColor": [252, 231, 3],
+
+        "uniqueName": "ЩЕ НЕ ГОТОВО",
+        "uniques": ["\"Borrows\" city names from other civilizations in the game"],
+        "cities": ["Dressrosa"]
+    },
+    {
+        "name": "Пірати Солом'яної Брилі",
+        "leaderName": "Мавпа Д. Луффі",
+        "startBias": ["Coastal"],
+        "preferredVictoryType": "Scientific",
+
+        "innerColor": [252, 3, 3],
+        "outerColor": [252, 231, 3],
+
+        "uniqueName": "Мугівара",
+        "uniques": [
+            "[+20]% Strength <when fighting units from a Civilization with more Cities than you>",
+            "[+5]% [Production] [in all cities]",
+            "[+5]% [Food] [in all cities]",
+            "[+5]% [Gold] [in all cities]",
+            "[+5]% [Science] [in all cities]",
+            "[+5]% [Culture] [in all cities]",
+            "[+5]% [Happiness] [in all cities]",
+            "\"Borrows\" city names from other civilizations in the game"],
+        "cities": ["Loguetown"]
+    },
+    {
+        "name": "World Government",
+        "leaderName": "Sakazuki",
+        "startBias": [],
+        "preferredVictoryType": "Domination",
+
+        "innerColor": [3, 120, 255],
+        "outerColor": [255, 255, 255],
+
+        "uniqueName": "Marine",
+        "uniques": [
+            "May buy [Military] units with [Faith] for [2] times their normal Production cost",
+            "[-10]% Gold cost of upgrading <for [Military] units>",
+            "Comment [Мирних челіків можна мобілізувати (ще не зроблено)]",
+            "[+1] Movement <for [{Military} {Water}] units>",
+            "[+1] Sight <for [{Military} {Water}] units>",
+            "Enables embarkation for land units <starting from the [Ancient era]>",
+            "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
+            "\"Borrows\" city names from other civilizations in the game"],
+        "cities": ["Marineford"]
+    },
+    {
+        "name": "Whole Cake Island",
+        "leaderName": "Charlotte Linlin",
+        "startBias": ["Coastal"],
+        "preferredVictoryType": "Scientific",
+
+        "innerColor": [252, 3, 161],
+        "outerColor": [255, 212, 245],
+
+        "uniqueName": "БІГ МАМА",
+        "uniques": [
+            "[-50]% Unhappiness from [Population] [in all cities]",
+            "[+1 Food] from every [Farm]",
+            "Comment [Може робити душок за віру і отримує віру за вбивство (ще не зролено)]",
+            "\"Borrows\" city names from other civilizations in the game"],
+        "cities": ["Whole Cake Island"]
+    },
+    {
+        "name": "Wano",
+        "leaderName": "KAIDO",
+        "startBias": [],
+        "preferredVictoryType": "Scientific",
+
+        "innerColor": [18, 0, 0],
+        "outerColor": [145, 3, 3],
+
+        "uniqueName": "ЦАР ЗВІРІВ",
+        "uniques": [
+            "Comment [Кайдо постійно хілиться (не зробив)]",
+            "[+1 Production] per [1] population [in all cities]",
+            "[+2 Production] from every specialist [in all cities]",
+            "[-3 Happiness] [in all cities]",
+            "[+3 Happiness] in cities on [Fresh Water] tiles",
+            "\"Borrows\" city names from other civilizations in the game"],
+        "cities": ["Onigashima"]
+    }
+]
