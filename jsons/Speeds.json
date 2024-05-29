@@ -1,9 +1,0 @@
-[
-    {
-        "name": "Normal",
-        "cityStateTributeScalingInterva": 5.0,
-        "startYear": 0,
-        "turns": [
-            {"yearsPerTurn": 0.1, "untilTurn":  1000}]
-    }
-]
