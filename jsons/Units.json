@@ -1,11 +1,10 @@
 [
     {
-		"name": "Settler",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 106,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
-			"Requires at least [2] population"],
-		"hurryCostModifier": 20
-	}
+        "name": "Monkey D. Luffy",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 10,
+        "uniqueTo": "Пірати Солом'яної Брилі",
+        "uniques": ["This Unit gains [3] XP<upon turn end>", "З'їсть всю твою їжу :(", "Heal this unit by [10] HP <upon being promoted><hidden from users>", "Limited to [1] per Civilization<hidden from users>", "Heal this unit by [10] HP <costs [+2 Food] stats><hidden from users>"]
+    }
 ]

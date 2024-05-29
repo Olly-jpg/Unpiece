@@ -1,0 +1,13 @@
+
+game.png
+size: 128, 128
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Monkey D. Luffy
+  rotate: false
+  xy: 4, 4
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
