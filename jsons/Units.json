@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Monkey D. Luffy",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 10,
+        "uniqueTo": "Пірати Солом'яної Брилі",
+        "uniques": [
+            "This Unit gains [3] XP<upon turn end>", 
+            "May capture killed [All] units <with [10]% chance>",
+            "Heal this unit by [15] HP <upon being promoted>", 
+            "Limited to [1] per Civilization", 
+            "Heal this unit by [20] HP <costs [+2 Food] stats><for [0] movement><when below [81] HP><in [Friendly Land] tiles>",
+            "This Unit gains the [preparation for GEAR II] promotion<costs [+10 Food] stats><for all movement><if it hasn't used other actions yet><for units without [GEAR II]><after [20] turns>"],
+        "replacementTextForUniques": "Постійно стає сильнішим і заводить нових друзів.\nНе боїться битися проти сильніших цивілізацій.\n\nАле обережно! Він з'їсть усю твою [Food]"
+    },
+    {
+        "name": "Roronoa Zoro",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 15,
+        "uniqueTo": "Пірати Солом'яної Брилі",
+        "replaces": "Warrior",
+        "replacementTextForUniques": "3 МЕЧІ",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Unbuildable",
+            "Can be purchased for [20] [Food] [in all cities]",
+            "[1] additional attacks per turn",
+            "May enter foreign tiles without open borders",
+            "Unit will heal every turn, even if it performs an action <when below [50] HP>"
+        ]
+    },
+    {
+        "name": "Nami", 
+        "unitType": "Scout",
+        "movement": 2,
+        "strength": 7,
+        "rangedStrength": 10,
+        "range": 1,
+        "uniqueTo":"Пірати Солом'яної Брилі",
+        "replaces": "Archer",
+        "requiredTech": "Currency",
+        "replacementTextForUniques": "Намі кішка крадійка, а тому\nкраде золото в тих, кого б'є",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Unbuildable",
+            "Can be purchased for [200] [Gold] [in all cities]<after discovering [Currency]>",
+            "No movement cost to pillage",
+            "Earn [50]% of the damage done to [All] units as [Gold]"
+        ]
+    }
+]

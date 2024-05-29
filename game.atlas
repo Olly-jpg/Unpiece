@@ -1,13 +1,48 @@
 
 game.png
-size: 128, 128
+size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/AbsoluteUnits/Units/Monkey D. Luffy
   rotate: false
+  xy: 4, 108
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Nami
+  rotate: false
+  xy: 1564, 628
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Roronoa Zoro
+  rotate: false
   xy: 4, 4
-  size: 64, 64
-  orig: 64, 64
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+UnitIcons/Monkey D. Luffy
+  rotate: false
+  xy: 4, 212
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+UnitIcons/Nami
+  rotate: false
+  xy: 524, 212
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+UnitIcons/Roronoa Zoro
+  rotate: false
+  xy: 1044, 212
+  size: 512, 512
+  orig: 512, 512
   offset: 0, 0
   index: -1
