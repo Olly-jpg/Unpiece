@@ -4,8 +4,8 @@
         "unitType": "Sword",
         "movement": 2,
         "strength": 10,
-        "uniqueTo": "Пірати Солом'яної Брилі",
-        "replaces": "Catapult",
+        "uniqueTo": "Straw Hat Pirates",
+        "replaces": "Warrior",
         "promotions": ["Mugiwara"],
         "uniques": [
             "Damage is ignored when determining unit Strength",
@@ -22,18 +22,16 @@
         "unitType": "Sword",
         "movement": 2,
         "strength": 15,
-        "uniqueTo": "Пірати Солом'яної Брилі",
-        "replaces": "Warrior",
+        "uniqueTo": "Straw Hat Pirates",
         "replacementTextForUniques": "3 МЕЧІ",
         "promotions": ["Mugiwara"],
         "uniques": [
             "Limited to [1] per Civilization", 
             "Unbuildable",
             "Damage is ignored when determining unit Strength",
-            "Can be purchased for [20] [Food] [in all cities]",
             "[1] additional attacks per turn",
-            "May enter foreign tiles without open borders",
-            "Unit will heal every turn, even if it performs an action <when below [50] HP>"
+            "Heals [10] damage if it kills a unit",
+            "May enter foreign tiles without open borders"
         ]
     },
     {
@@ -43,15 +41,12 @@
         "strength": 10,
         "rangedStrength": 10,
         "range": 1,
-        "uniqueTo":"Пірати Солом'яної Брилі",
-        "replaces": "Scout",
-        "requiredTech": "Currency",
+        "uniqueTo":"Straw Hat Pirates",
         "promotions": ["Mugiwara"],
         "replacementTextForUniques": "Намі кішка крадійка, а тому\nкраде золото в тих, кого б'є",
         "uniques": [
             "Limited to [1] per Civilization", 
             "Unbuildable",
-            "Can be purchased for [200] [Gold] [in all cities]<after discovering [Currency]>",
             "No movement cost to pillage",
             "Earn [50]% of the damage done to [All] units as [Gold]"
         ]
@@ -63,8 +58,7 @@
         "strength": 7,
         "rangedStrength": 15,
         "range": 3,
-        "uniqueTo":"Пірати Солом'яної Брилі",
-        "replaces": "Archer",
+        "uniqueTo":"Straw Hat Pirates",
         "promotions": ["Mugiwara"],
         "replacementTextForUniques": "БОГ УСОПП",
         "uniques": [
@@ -82,16 +76,28 @@
         "unitType": "Sword",
         "movement": 4,
         "strength": 12,
-        "uniqueTo": "Пірати Солом'яної Брилі",
-        "replaces": "Spearman",
+        "uniqueTo": "Straw Hat Pirates",
         "promotions": ["Mugiwara"],
         "replacementTextForUniques": "Готує найсмачнішу їжу для [Nami] <3\n\n\nПотім ще зроблю так що він не може\nбити жінок.",
         "uniques": [
             "Limited to [1] per Civilization", 
             "Unbuildable",
-            "[+20]% to Flank Attack bonuses",
+            "[+200]% to Flank Attack bonuses",
             "Can move after attacking"
         ]
 
+    },
+    {
+        "name": "Tony Tony Chopper",
+        "unitType": "Sword",
+        "movement": 3,
+        "uniqueTo": "Straw Hat Pirates",
+        "promotions": ["Mugiwara"],
+        "replacementTextForUniques": "піська",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Unbuildable",
+            "All adjacent units heal [50] HP when healing"
+        ]
     }
 ]

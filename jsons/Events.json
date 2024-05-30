@@ -8,5 +8,36 @@
                 "triggeredUniques": []
             }
         ]
+    },
+    {
+        "name": "+Strawhat",
+        "text": "Обери нового члена тіми:",
+        "choices": [
+            {
+                "text": "Roronoa Zoro",
+                "conditions": [],
+                "triggeredUniques": ["Free [Roronoa Zoro] appears <hidden from users>"]
+            },
+            {
+                "text": "Nami",
+                "conditions": [],
+                "triggeredUniques": ["Free [Nami] appears <hidden from users>"]
+            },
+            {
+                "text": "God Usopp",
+                "conditions": [],
+                "triggeredUniques": ["Free [God Usopp] appears <hidden from users>"]
+            },
+            {
+                "text": "Vinsmoke Sanji",
+                "conditions": [],
+                "triggeredUniques": ["Free [Vinsmoke Sanji] appears <hidden from users>"]
+            },
+            {
+                "text": "Tony Tony Chopper",
+                "conditions": [],
+                "triggeredUniques": ["Free [Tony Tony Chopper] appears <hidden from users>"]
+            }
+        ]
     }
 ]
