@@ -13,8 +13,14 @@
             "Can move after attacking",
             "Eliminates combat penalty for attacking over a river",
             "[5] Movement",
-            "[3] additional attacks per turn",
-            "[+20]% Strength"
+            "[2] additional attacks per turn",
+            "[+50]% Strength"
+        ]
+    },
+    {
+        "name": "Mugiwara",
+        "uniques": [
+            "[+20]% Strength <upon entering a new era>"
         ]
     }
 ]

@@ -9,10 +9,12 @@
     "outerColor": [252, 231, 3],
 
     "uniqueName": "Мугівара",
-    "uniqueText": "Луфі стане Королем Піратів і знайде ONE PIECE!",
+    "uniqueText": "Луфі стане Королем Піратів і знайде ONE PIECE!\n\nТЕПЕР ВСЯ ТІМА СТАВАТИМЕ СИЛЬНІШОЮ З ЧАСОМ (коли заходять в нову еру)",
     "uniques": [
         "[+20]% Strength <when fighting units from a Civilization with more Cities than you>",
-        "Free [Monkey D. Luffy] appears",
+        "Cannot build [Settler] units",
+        "Free [Monkey D. Luffy] appears", "Free [God Usopp] appears <when not at war><upon turn end><after [15] turns>",
+        "Free [Vinsmoke Sanji] appears <upon turn end><after [30] turns>",
         "\"Borrows\" city names from other civilizations in the game"],
     "cities": ["Loguetown"]
     }

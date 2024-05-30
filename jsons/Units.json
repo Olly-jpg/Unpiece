@@ -5,13 +5,16 @@
         "movement": 2,
         "strength": 10,
         "uniqueTo": "Пірати Солом'яної Брилі",
+        "replaces": "Catapult",
+        "promotions": ["Mugiwara"],
         "uniques": [
+            "Damage is ignored when determining unit Strength",
             "This Unit gains [3] XP<upon turn end>", 
             "May capture killed [All] units <with [10]% chance>",
             "Heal this unit by [15] HP <upon being promoted>", 
             "Limited to [1] per Civilization", 
             "Heal this unit by [20] HP <costs [+2 Food] stats><for [0] movement><when below [81] HP><in [Friendly Land] tiles>",
-            "This Unit gains the [preparation for GEAR II] promotion<costs [+10 Food] stats><for all movement><if it hasn't used other actions yet><for units without [GEAR II]><after [20] turns>"],
+            "This Unit gains the [preparation for GEAR II] promotion<costs [+10 Food] stats><for all movement><if it hasn't used other actions yet><for units without [GEAR II]><after [40] turns>"],
         "replacementTextForUniques": "Постійно стає сильнішим і заводить нових друзів.\nНе боїться битися проти сильніших цивілізацій.\n\nАле обережно! Він з'їсть усю твою [Food]"
     },
     {
@@ -22,9 +25,11 @@
         "uniqueTo": "Пірати Солом'яної Брилі",
         "replaces": "Warrior",
         "replacementTextForUniques": "3 МЕЧІ",
+        "promotions": ["Mugiwara"],
         "uniques": [
             "Limited to [1] per Civilization", 
             "Unbuildable",
+            "Damage is ignored when determining unit Strength",
             "Can be purchased for [20] [Food] [in all cities]",
             "[1] additional attacks per turn",
             "May enter foreign tiles without open borders",
@@ -35,12 +40,13 @@
         "name": "Nami", 
         "unitType": "Scout",
         "movement": 2,
-        "strength": 7,
+        "strength": 10,
         "rangedStrength": 10,
         "range": 1,
         "uniqueTo":"Пірати Солом'яної Брилі",
-        "replaces": "Archer",
+        "replaces": "Scout",
         "requiredTech": "Currency",
+        "promotions": ["Mugiwara"],
         "replacementTextForUniques": "Намі кішка крадійка, а тому\nкраде золото в тих, кого б'є",
         "uniques": [
             "Limited to [1] per Civilization", 
@@ -49,5 +55,45 @@
             "No movement cost to pillage",
             "Earn [50]% of the damage done to [All] units as [Gold]"
         ]
+    },
+    {
+        "name": "God Usopp", 
+        "unitType": "Archery",
+        "movement": 2,
+        "strength": 7,
+        "rangedStrength": 15,
+        "range": 3,
+        "uniqueTo":"Пірати Солом'яної Брилі",
+        "replaces": "Archer",
+        "promotions": ["Mugiwara"],
+        "replacementTextForUniques": "БОГ УСОПП",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Unbuildable",
+            "Must set up to ranged attack",
+            "May withdraw before melee ([50]%)",
+            "Cannot attack <when below [34] HP>",
+            "[1] Movement <when below [34] HP>",
+            "Triggers a [Usopp] event <upon being defeated>"
+        ]
+    },
+    {
+        "name": "Vinsmoke Sanji",
+        "unitType": "Sword",
+        "movement": 4,
+        "strength": 12,
+        "uniqueTo": "Пірати Солом'яної Брилі",
+        "replaces": "Spearman",
+        "promotions": ["Mugiwara"],
+        "replacementTextForUniques": "Готує найсмачнішу їжу для [Nami] <3\n\n\nПотім ще зроблю так що він не може\nбити жінок.",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Unbuildable",
+            "[+20]% to Flank Attack bonuses",
+            "Gain [10]-[30] [Food] <for [2] movement>",
+            "Can move after attacking",
+            ""
+        ]
+
     }
 ]
