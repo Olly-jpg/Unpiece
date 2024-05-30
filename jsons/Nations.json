@@ -13,8 +13,8 @@
     "uniques": [
         "[+20]% Strength <when fighting units from a Civilization with more Cities than you>",
         "Cannot build [Settler] units",
-        "Free [Monkey D. Luffy] appears", "Free [God Usopp] appears <when not at war><upon turn end><after [15] turns>",
-        "Free [Vinsmoke Sanji] appears <upon turn end><after [30] turns>",
+        "Free [Monkey D. Luffy] appears", "Free [God Usopp] appears <when not at war><upon turn end><after [20] turns>",
+        "Free [Vinsmoke Sanji] appears <upon turn end><after [40] turns>",
         "\"Borrows\" city names from other civilizations in the game"],
     "cities": ["Loguetown"]
     }

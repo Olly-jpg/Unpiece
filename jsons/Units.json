@@ -9,12 +9,12 @@
         "promotions": ["Mugiwara"],
         "uniques": [
             "Damage is ignored when determining unit Strength",
-            "This Unit gains [3] XP<upon turn end>", 
+            "This Unit gains [2] XP<upon turn end>", 
             "May capture killed [All] units <with [10]% chance>",
             "Heal this unit by [15] HP <upon being promoted>", 
             "Limited to [1] per Civilization", 
             "Heal this unit by [20] HP <costs [+2 Food] stats><for [0] movement><when below [81] HP><in [Friendly Land] tiles>",
-            "This Unit gains the [preparation for GEAR II] promotion<costs [+10 Food] stats><for all movement><if it hasn't used other actions yet><for units without [GEAR II]><after [40] turns>"],
+            "This Unit gains the [preparation for GEAR II] promotion<costs [+10 Food] stats><for all movement><if it hasn't used other actions yet><for units without [GEAR II]><after [60] turns>"],
         "replacementTextForUniques": "Постійно стає сильнішим і заводить нових друзів.\nНе боїться битися проти сильніших цивілізацій.\n\nАле обережно! Він з'їсть усю твою [Food]"
     },
     {
@@ -90,9 +90,7 @@
             "Limited to [1] per Civilization", 
             "Unbuildable",
             "[+20]% to Flank Attack bonuses",
-            "Gain [10]-[30] [Food] <for [2] movement>",
-            "Can move after attacking",
-            ""
+            "Can move after attacking"
         ]
 
     }

@@ -32,6 +32,13 @@ TileSets/AbsoluteUnits/Units/Roronoa Zoro
   orig: 96, 96
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Vinsmoke Sanji
+  rotate: false
+  xy: 1148, 1564
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
 UnitIcons/God Usopp
   rotate: false
   xy: 4, 1148
