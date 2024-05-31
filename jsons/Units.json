@@ -99,5 +99,20 @@
             "Unbuildable",
             "All adjacent units heal [50] HP when healing"
         ]
+    },
+    {
+        "name": "Nico Robin", 
+        "unitType": "Scout",
+        "movement": 2,
+        "strength": 10,
+        "uniqueTo":"Straw Hat Pirates",
+        "promotions": ["Mugiwara"],
+        "replacementTextForUniques": "няшка",
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Unbuildable",
+            "No movement cost to pillage",
+            "Earn [100]% of the damage done to [All] units as [Science]"
+        ]
     }
 ]

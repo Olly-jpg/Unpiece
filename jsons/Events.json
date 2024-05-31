@@ -37,6 +37,11 @@
                 "text": "Tony Tony Chopper",
                 "conditions": [],
                 "triggeredUniques": ["Free [Tony Tony Chopper] appears <hidden from users>"]
+            },
+            {
+                "text": "Nico Robin",
+                "conditions": [],
+                "triggeredUniques": ["Free [Nico Robin] appears <hidden from users>"]
             }
         ]
     }
