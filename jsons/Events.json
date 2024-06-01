@@ -11,7 +11,7 @@
     },
     {
         "name": "+Strawhat",
-        "text": "Обери нового члена тіми:",
+        "text": "Who will join next?",
         "choices": [
             {
                 "text": "Roronoa Zoro",
