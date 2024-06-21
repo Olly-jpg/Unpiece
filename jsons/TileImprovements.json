@@ -1,0 +1,29 @@
+[
+	{
+		"name": "Croquembouche",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow"],
+		"turnsToBuild": 7,
+		"uniqueTo": "Totto Land",
+		"uniques": ["Unpillagable", "[+1 Happiness]", "Tile provides yield without assigned population"]
+	},
+	{
+		"name": "Remove Croquembouche",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 2,
+		"uniques": ["Instantly provides [301] [Hunger] <when number of [Hunger] is equal to [1]>"]
+	},
+	{
+		"name": "Wedding Cake",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow"],
+		"turnsToBuild": 7,
+		"uniqueTo": "Totto Land",
+		"uniques": ["Unpillagable", "[+1 Happiness]", "Tile provides yield without assigned population"]
+	},
+	{
+		"name": "Remove Wedding Cake",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 2,
+		"uniques": ["Instantly provides [301] [Hunger] <when number of [Hunger] is equal to [2]>"]
+	}
+
+]

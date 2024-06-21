@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Big Mom is hungry",
+        "uniques": ["Big Mom is hungry", "[+20]% Strength decreasing with distance from the capital", "Can build [Remove Wedding Cake] improvements on tiles", "Can build [Remove Croquembouche] improvements on tiles"]
+    },
+
+    {
+        "name": "preparation for GEAR II",
+        "uniques": [
+            "This Unit loses the [preparation for GEAR II] promotion<upon turn end>",
+            "This Unit gains the [GEAR II] promotion<upon turn end>"
+        ]
+    },
+    {
+        "name": "GEAR II",
+        "uniques": [
+            "This Unit loses the [GEAR II] promotion<upon turn end>",
+            "Can move after attacking",
+            "Eliminates combat penalty for attacking over a river",
+            "[5] Movement",
+            "[2] additional attacks per turn",
+            "[+50]% Strength"
+        ]
+    },
+    {
+        "name": "Mugiwara",
+        "uniques": [
+            "[+10]% Strength <upon entering a new era>"
+        ]
+    },
+    {
+        "name": "Fainted",
+        "uniques": [
+            "Cannot move",
+            "Cannot attack",
+            "[-20] HP when healing",
+            "This Unit loses the [Fainted] promotion<upon turn end><when above [20] HP>"
+        ]
+    }
+]

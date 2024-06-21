@@ -1,0 +1,136 @@
+[
+    {
+        "name": "+Strawhat",
+        "text": "Обери нового члена тіми:",
+        "choices": [
+            {
+                "text": "Zoro",
+                "conditions": [],
+                "triggeredUniques": ["Free [Zoro] appears <hidden from users>"]
+            },
+            {
+                "text": "Nami",
+                "conditions": [],
+                "triggeredUniques": ["Free [Nami] appears <hidden from users>"]
+            },
+            {
+                "text": "Usopp",
+                "conditions": [],
+                "triggeredUniques": ["Free [Usopp] appears <hidden from users>"]
+            },
+            {
+                "text": "Sanji",
+                "conditions": [],
+                "triggeredUniques": ["Free [Sanji] appears <hidden from users>"]
+            },
+            {
+                "text": "Chopper",
+                "conditions": [],
+                "triggeredUniques": ["Free [Chopper] appears <hidden from users>"]
+            },
+            {
+                "text": "Robin",
+                "conditions": [],
+                "triggeredUniques": ["Free [Robin] appears <hidden from users>"]
+            },
+            {
+                "text": "Franky",
+                "conditions": [],
+                "triggeredUniques": ["Free [Franky] appears <hidden from users>"]
+            },
+            {
+                "text": "Brook",
+                "conditions": [],
+                "triggeredUniques": ["Free [Brook] appears <hidden from users>"]
+            }
+        ]
+    },
+    {
+        "name": "CLONE_UPGRADE",
+        "text": "From now on clones ...",
+        "choices": [
+            {
+                "text": "Become stronger",
+                "conditions": ["when number of [Strength Improvement] is less than [12]"],
+                "triggeredUniques": ["Instantly provides [1] [Strength Improvement]"]
+            },
+            {
+                "text": "Become faster",
+                "conditions": ["when number of [Speed Improvement] is less than [12]"],
+                "triggeredUniques": ["Instantly provides [1] [Speed Improvement]"]
+            }
+        ]
+    },
+    {
+        "name": "PREGNANCY",
+        "text": "Здається, буде поповнення...",
+        "choices": [
+            {
+                "text": "OK",
+                "conditions": [],
+                "triggeredUniques": ["Instantly provides [1] [Pregnancy]"]
+            }
+        ]
+    },
+    {
+        "name": "BIG_MOM_HUNGRY",
+        "text": "БігМама психує! Рятуйте свої життя!",
+        "choices": [
+            {
+                "text": "She wants [Semla]!",
+                "conditions": ["when number of [Hunger] is equal to [0]"],
+                "triggeredUniques": ["Comment [Semla]"]
+            },
+            {
+                "text": "She wants [Croquembouche]!",
+                "conditions": ["when number of [Hunger] is equal to [1]"],
+                "triggeredUniques": ["Comment [Croquembouche]"]
+            },
+            {
+                "text": "She wants [Wedding Cake]!",
+                "conditions": ["when number of [Hunger] is equal to [2]"],
+                "triggeredUniques": ["Comment [Wedding Cake]"]
+            },
+            {
+                "text": "She wants [Oshiruko]!",
+                "conditions": ["when number of [Hunger] is equal to [3]"],
+                "triggeredUniques": ["Comment [Oshiruko]"]
+            },
+            {
+                "text": "She wants [Doughnuts]!",
+                "conditions": ["when number of [Hunger] is equal to [4]"],
+                "triggeredUniques": ["Comment [Doughnuts]"]
+            },
+            {
+                "text": "She wants [Seafood Risotto]!",
+                "conditions": ["when number of [Hunger] is equal to [5]"],
+                "triggeredUniques": ["Comment [Seafood Risotto]"]
+            },
+            {
+                "text": "She wants [Meat]!",
+                "conditions": ["when number of [Hunger] is equal to [6]"],
+                "triggeredUniques": ["Comment [Meat]"]
+            },
+            {
+                "text": "She wants [Hakari]!",
+                "conditions": ["when number of [Hunger] is equal to [7]"],
+                "triggeredUniques": ["Comment [Hakari]"]
+            },
+            {
+                "text": "She wants [Soba]!",
+                "conditions": ["when number of [Hunger] is equal to [8]"],
+                "triggeredUniques": ["Comment [Soba]"]
+            },
+            {
+                "text": "She wants [Cherry Pie]!",
+                "conditions": ["when number of [Hunger] is equal to [9]"],
+                "triggeredUniques": ["Comment [Cherry Pie]"]
+            },
+            {
+                "text": "This will never appear in game",
+                "conditions": ["when number of [Hunger] is greater than [9]"],
+                "triggeredUniques": ["But this choise is needed for Event to work"]
+            }
+        ]
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land",
+        "uniques": [
+            "Can transform to [Scout] <for [Морський Дозор]>",
+            "This Unit takes [20] damage <upon turn end><when adjacent to a [Big Mom is hungry] unit>"
+        ]
+    }
+]

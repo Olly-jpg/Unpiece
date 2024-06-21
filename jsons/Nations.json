@@ -1,0 +1,194 @@
+[
+    {
+        "name": "Straw Hat Pirates",
+        "leaderName": "Monkey D. Luffy",
+        "style": "Pirate",
+        "startBias": [],
+        "preferredVictoryType": "Neutral",
+
+
+        "innerColor": [249, 97, 103],
+        "outerColor": [249, 231, 149],
+
+        "uniqueName": "Мугівара",
+        "uniques": [
+            "Free [Luffy] appears <upon turn end><when above [0] [luffy]>",
+            "Free [Zoro] appears <upon turn end><when above [0] [zoro]>",
+            "Free [Nami] appears <upon turn end><when above [0] [nami]>",
+            "Free [Usopp] appears <upon turn end><when above [0] [usopp]>",
+            "Free [Sanji] appears <upon turn end><when above [0] [sanji]>",
+            "Free [Chopper] appears <upon turn end><when above [0] [chopper]>",
+            "Free [Robin] appears <upon turn end><when above [0] [robin]>",
+            "Free [Franky] appears <upon turn end><when above [0] [franky]>",
+            "Free [Brook] appears <upon turn end><when above [0] [brook]>",
+    
+    
+            "Cannot build [All] units",
+    
+            "Triggers a [+Strawhat] event <upon founding a city><if [Palace] is constructed in all [in all cities] cities>",
+            "Triggers a [+Strawhat] event <after [1] turns><every [20] turns><upon turn end>",
+    
+            "[+20]% Strength <when fighting units from a Civilization with more Cities than you>",
+            
+            "\"Borrows\" city names from other civilizations in the game"
+        ],
+
+        "cities": ["Loguetown"]
+    },
+    {
+        "name": "World Government",
+        "leaderName": "Five Elders",
+        "style": "Marine",
+        "startBias": [],
+        "preferredVictoryType": "Neutral",
+
+
+        "innerColor": [138, 170, 229],
+        "outerColor": [255, 255, 255],
+
+        "uniques": [
+            "Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
+            "City-State territory always counts as friendly territory"
+        ],
+
+        "cities": ["City"]
+    },
+    {
+        "name": "Dressrosa",
+        "leaderName": "Donquixote Doflamingo",
+        "style": "Pirate",
+        "startBias": [],
+        "preferredVictoryType": "Neutral",
+
+
+        "innerColor": [115, 93, 165],
+        "outerColor": [211, 197, 229],
+
+        "uniques": [],
+
+        "cities": ["City"]
+    },
+    {
+        "name": "Totto Land",
+        "leaderName": "Charlotte Linlin",
+        "style": "Pirate",
+        "startBias": [],
+        "preferredVictoryType": "Neutral",
+
+
+        "innerColor": [204, 49, 61],
+        "outerColor": [247, 197, 204],
+
+        "uniques": [
+            "Free [Big Mom] appears",
+            "Instantly provides [300] [Hunger]",
+            "Instantly provides [30] [Semla] <upon founding a city>",
+            "Triggers a [BIG_MOM_HUNGRY] event <upon turn end><when number of [Hunger] is between [10] and [19]>",
+            "Instantly consumes [10] [Hunger] <upon turn end><when number of [Hunger] is greater than [9]>"
+        ],
+
+        "cities": ["City"]
+    },
+    {
+        "name": "Wano Country",
+        "leaderName": "Kaidou",
+        "style": "Pirate",
+        "startBias": [],
+        "preferredVictoryType": "Neutral",
+
+
+        "innerColor": [110, 87, 115],
+        "outerColor": [255, 238, 204],
+
+        "uniques": [],
+
+        "cities": ["City"]
+    },
+    {
+        "name": "Blackbeard Pirates",
+        "leaderName": "Marshall D. Teach",
+        "style": "Pirate",
+        "startBias": [],
+        "preferredVictoryType": "Neutral",
+
+
+        "innerColor": [42, 49, 50],
+        "outerColor": [144, 175, 197],
+
+        "uniques": [
+            "Receive triple Gold from Barbarian encampments and pillaging Cities",
+            "Cities are razed [2] times as fast",
+            "When conquering an encampment, earn [0] Gold and recruit a Barbarian unit"
+        ],
+
+        "cities": ["City"]
+    },
+    {
+        "name": "Revolutionary Army",
+        "leaderName": "Monkey D. Dragon",
+        "style": "Pirate",
+        "startBias": [],
+        "preferredVictoryType": "Neutral",
+
+
+        "innerColor": [85, 113, 116],
+        "outerColor": [228, 239, 231],
+
+        "uniques": [
+            "[-100]% unhappiness from the number of cities",
+            "[-100]% Unhappiness from [Population] [in puppeted cities]",
+            "[-100]% Unhappiness from [Specialists] [in puppeted cities]",
+            "May buy items in puppet cities <during We Love The King Day>"
+        ],
+
+        "cities": ["City"]
+    },
+    {
+        "name": "Worst Generation",
+        "leaderName": "Eustass Kid",
+        "style": "Pirate",
+        "startBias": [],
+        "preferredVictoryType": "Neutral",
+
+
+        "innerColor": [249, 136, 102],
+        "outerColor": [255, 242, 215],
+
+        "uniques": [],
+
+        "cities": ["City"]
+    },
+    {
+        "name": "Germa Kingdom",
+        "leaderName": "Vinsmoke Judge",
+        "style": "Pirate",
+        "startBias": [],
+        "preferredVictoryType": "Neutral",
+
+
+        "innerColor": [102, 165, 173],
+        "outerColor": [196, 223, 230],
+
+        "uniques": [
+        "Triggers a [CLONE_UPGRADE] event <every [20] turns><upon turn end>",
+        "Notified of new Barbarian encampments"
+        ],
+
+        "cities": ["City"]
+    },
+    {
+        "name": "Amazon Lily",
+        "leaderName": "Boa Hancock",
+        "style": "Pirate",
+        "startBias": [],
+        "preferredVictoryType": "Neutral",
+
+
+        "innerColor": [99, 136, 137],
+        "outerColor": [213, 240, 193],
+
+        "uniques": [],
+
+        "cities": ["City"]
+    }
+]

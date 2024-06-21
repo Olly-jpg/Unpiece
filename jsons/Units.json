@@ -1,0 +1,273 @@
+[
+	{
+		"name": "Chef",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniqueTo": "Totto Land",
+		"uniques": [
+			"Can build [Croquembouche] improvements on tiles <when number of [Hunger] is equal to [1]>",
+			"Can build [Wedding Cake] improvements on tiles <when number of [Hunger] is equal to [2]>",
+			"Can build [Croquembouche] improvements on tiles <when number of [Hunger] is equal to [11]>",
+			"Can build [Wedding Cake] improvements on tiles <when number of [Hunger] is equal to [12]>",
+			"Automation is a primary action",
+
+			"Instantly provides [1] [Semla] <in [your] tiles><when number of [Hunger] is equal to [0]><requires [2] movement><for all movement><costs [+10 Food] stats>",
+			"Instantly provides [1] [Oshiruko] <in [your] tiles><when number of [Hunger] is equal to [3]><requires [2] movement><for all movement><costs [+10 Food] stats>",
+			"Instantly provides [1] [Doughnuts] <in [your] tiles><when number of [Hunger] is equal to [4]><requires [2] movement><for all movement><costs [+10 Food] stats>",
+			"Instantly provides [1] [Seafood Risotto] <in [your] tiles><when number of [Hunger] is equal to [5]><requires [2] movement><for all movement><costs [+10 Food] stats>",
+			"Instantly provides [1] [Meat] <in [your] tiles><when number of [Hunger] is equal to [6]><requires [2] movement><for all movement><costs [+10 Food] stats>",
+			"Instantly provides [1] [Hakari] <in [your] tiles><when number of [Hunger] is equal to [7]><requires [2] movement><for all movement><costs [+10 Food] stats>",
+			"Instantly provides [1] [Soba] <in [your] tiles><when number of [Hunger] is equal to [8]><requires [2] movement><for all movement><costs [+10 Food] stats>",
+			"Instantly provides [1] [Cherry Pie] <in [your] tiles><when number of [Hunger] is equal to [9]><requires [2] movement><for all movement><costs [+10 Food] stats>"
+
+		],
+		"cost": 40
+	},
+	
+
+	{
+		"name": "Clone",
+		"unitType": "Civilian",
+		"cost": 100,
+		"movement": 2,
+		"strength": 10,
+		"uniqueTo": "Germa Kingdom",
+		"uniques": ["Cannot be purchased", 
+			"[+1] Movement <when above [0] [Speed Improvement]>",
+			"[+1] Movement <when above [1] [Speed Improvement]>",
+			"[+1] Movement <when above [2] [Speed Improvement]>",
+			"[+1] Movement <when above [3] [Speed Improvement]>",
+			"[+1] Movement <when above [4] [Speed Improvement]>",
+			"[+1] Movement <when above [5] [Speed Improvement]>",
+			"[+1] Movement <when above [6] [Speed Improvement]>",
+			"[+1] Movement <when above [7] [Speed Improvement]>",
+			"[+1] Movement <when above [8] [Speed Improvement]>",
+			"[+1] Movement <when above [9] [Speed Improvement]>",
+			"[+1] Movement <when above [10] [Speed Improvement]>",
+			"[+1] Movement <when above [11] [Speed Improvement]>",
+
+			"[+20]% Strength <when number of [Strength Improvement] is equal to [1]>",
+			"[+40]% Strength <when number of [Strength Improvement] is equal to [2]>",
+			"[+60]% Strength <when number of [Strength Improvement] is equal to [3]>",
+			"[+80]% Strength <when number of [Strength Improvement] is equal to [4]>",
+			"[+100]% Strength <when number of [Strength Improvement] is equal to [5]>",
+			"[+120]% Strength <when number of [Strength Improvement] is equal to [6]>",
+			"[+140]% Strength <when number of [Strength Improvement] is equal to [7]>",
+			"[+160]% Strength <when number of [Strength Improvement] is equal to [8]>",
+			"[+180]% Strength <when number of [Strength Improvement] is equal to [9]>",
+			"[+200]% Strength <when number of [Strength Improvement] is equal to [10]>",
+			"[+220]% Strength <when number of [Strength Improvement] is equal to [11]>",
+			"[+240]% Strength <when number of [Strength Improvement] is equal to [12]>"
+
+		]
+	},
+	{
+		"name": "Big Mom",
+		"unitType": "Civilian",
+		"movement": 2,
+		"strength": 30,
+		"cost": 100,
+		"uniqueTo": "Totto Land",
+		"uniques": [
+			"Limited to [1] per Civilization",
+			"Triggers a [PREGNANCY] event <upon defeating a [Land] unit><with [50]% chance>",
+			"Free [Scout] appears <when number of [Pregnancy] is greater than [0]><costs [1] [Pregnancy]><in [your] tiles><requires [2] movement><for all movement>",
+
+			"Instantly provides [301] [Hunger] <in [your] tiles><when number of [Hunger] is equal to [0]><when number of [Semla] is greater than [0]><costs [1] [Semla]>",
+			"Instantly provides [301] [Hunger] <in [your] tiles><when number of [Hunger] is equal to [3]><when number of [Oshiruko] is greater than [0]><costs [1] [Oshiruko]>",
+			"Instantly provides [301] [Hunger] <in [your] tiles><when number of [Hunger] is equal to [4]><when number of [Doughnuts] is greater than [0]><costs [1] [Doughnuts]>",
+			"Instantly provides [301] [Hunger] <in [your] tiles><when number of [Hunger] is equal to [5]><when number of [Seafood Risotto] is greater than [0]><costs [1] [Seafood Risotto]>",
+			"Instantly provides [301] [Hunger] <in [your] tiles><when number of [Hunger] is equal to [6]><when number of [Meat] is greater than [0]><costs [1] [Meat]>",
+			"Instantly provides [301] [Hunger] <in [your] tiles><when number of [Hunger] is equal to [7]><when number of [Hakari] is greater than [0]><costs [1] [Hakari]>",
+			"Instantly provides [301] [Hunger] <in [your] tiles><when number of [Hunger] is equal to [8]><when number of [Soba] is greater than [0]><costs [1] [Soba]>",
+			"Instantly provides [301] [Hunger] <in [your] tiles><when number of [Hunger] is equal to [9]><when number of [Cherry Pie] is greater than [0]><costs [1] [Cherry Pie]>",
+
+			"This Unit gains the [Big Mom is hungry] promotion <upon turn end><when number of [Hunger] is less than [10]>",
+			"This Unit loses the [Big Mom is hungry] promotion <upon turn end><when number of [Hunger] is greater than [10]>"
+		]
+	},
+	{
+		"name": "Rookie",
+		"unitType": "Civilian",
+		"movement": 2,
+		"strength": 5,
+		"cost": 1,
+		"uniqueTo": "World Government",
+		"uniques": ["Unbuildable", "Can be purchased for [0] [Faith] [in all cities]", "[-1] population [in this city]"]
+	},
+
+	{
+        "name": "Luffy",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 10,
+        "uniqueTo": "Straw Hat Pirates",
+        "replaces": "Warrior",
+        "promotions": ["Mugiwara"],
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Unbuildable",
+            "Instantly provides [1] [luffy] <upon being defeated>",
+            "This Unit takes [99] damage <when above [0] [luffy]>",
+            "This Unit gains the [Fainted] promotion <when above [0] [luffy]>",
+
+            "Damage is ignored when determining unit Strength",
+            "This Unit gains [2] XP<upon turn end>", 
+            "May capture killed [All] units <with [10]% chance>",
+            "Heal this unit by [15] HP <upon being promoted>", 
+
+            "Heal this unit by [2] HP <costs [+2 Food] stats><for [0] movement><when below [81] HP><in [Friendly Land] tiles>",
+            "This Unit gains the [preparation for GEAR II] promotion<costs [+10 Food] stats><for all movement><if it hasn't used other actions yet><for units without [GEAR II]><after [60] turns>"]
+
+    },
+    {
+        "name": "Zoro",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 15,
+        "uniqueTo": "Straw Hat Pirates",
+        "promotions": ["Mugiwara"],
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Unbuildable",
+            "Instantly provides [1] [zoro] <upon being defeated>",
+            "This Unit takes [99] damage <when above [0] [zoro]>",
+            "This Unit gains the [Fainted] promotion <when above [0] [zoro]>",
+
+            "Damage is ignored when determining unit Strength",
+            "[1] additional attacks per turn",
+            "Heals [10] damage if it kills a unit",
+            "May enter foreign tiles without open borders"
+        ]
+    },
+    {
+        "name": "Nami", 
+        "unitType": "Scout",
+        "movement": 2,
+        "strength": 10,
+        "rangedStrength": 10,
+        "range": 1,
+        "uniqueTo":"Straw Hat Pirates",
+        "promotions": ["Mugiwara"],
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Unbuildable",
+            "Instantly provides [1] [nami] <upon being defeated>",
+            "This Unit takes [99] damage <when above [0] [nami]>",
+            "This Unit gains the [Fainted] promotion <when above [0] [nami]>",
+
+            "No movement cost to pillage",
+            "Earn [50]% of the damage done to [All] units as [Gold]"
+        ]
+    },
+    {
+        "name": "Usopp", 
+        "unitType": "Archery",
+        "movement": 2,
+        "strength": 7,
+        "rangedStrength": 15,
+        "range": 3,
+        "uniqueTo":"Straw Hat Pirates",
+        "promotions": ["Mugiwara"],
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Unbuildable",
+            "Instantly provides [1] [usopp] <upon being defeated>",
+            "This Unit takes [99] damage <when above [0] [usopp]>",
+            "This Unit gains the [Fainted] promotion <when above [0] [usopp]>",
+
+            "Must set up to ranged attack",
+            "May withdraw before melee ([50]%)",
+            "Cannot attack <when below [34] HP>",
+            "[1] Movement <when below [34] HP>"
+        ]
+    },
+    {
+        "name": "Sanji",
+        "unitType": "Sword",
+        "movement": 3,
+        "strength": 12,
+        "uniqueTo": "Straw Hat Pirates",
+        "promotions": ["Mugiwara"],
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Unbuildable",
+            "Instantly provides [1] [sanji] <upon being defeated>",
+            "This Unit takes [99] damage <when above [0] [sanji]>",
+            "This Unit gains the [Fainted] promotion <when above [0] [sanji]>",
+
+            "[+200]% to Flank Attack bonuses",
+            "Can move after attacking"
+        ]
+
+    },
+    {
+        "name": "Chopper",
+        "unitType": "Sword",
+        "movement": 3,
+        "uniqueTo": "Straw Hat Pirates",
+        "promotions": ["Mugiwara"],
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Unbuildable",
+            "Instantly provides [1] [chopper] <upon being defeated>",
+            "This Unit takes [99] damage <when above [0] [chopper]>",
+            "This Unit gains the [Fainted] promotion <when above [0] [chopper]>",
+
+            "All adjacent units heal [50] HP when healing"
+        ]
+    },
+    {
+        "name": "Robin", 
+        "unitType": "Scout",
+        "movement": 2,
+        "strength": 10,
+        "uniqueTo":"Straw Hat Pirates",
+        "promotions": ["Mugiwara"],
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Unbuildable",
+            "Instantly provides [1] [robin] <upon being defeated>",
+            "This Unit takes [99] damage <when above [0] [robin]>",
+            "This Unit gains the [Fainted] promotion <when above [0] [robin]>",
+
+            "No movement cost to pillage",
+            "Earn [100]% of the damage done to [All] units as [Science]"
+        ]
+    },
+    {
+        "name": "Franky", 
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 10,
+        "uniqueTo":"Straw Hat Pirates",
+        "promotions": ["Mugiwara"],
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Unbuildable",
+            "Instantly provides [1] [franky] <upon being defeated>",
+            "This Unit takes [99] damage <when above [0] [franky]>",
+            "This Unit gains the [Fainted] promotion <when above [0] [franky]>",
+
+            "Can build [Land] improvements on tiles",
+            "Earn [100]% of the damage done to [All] units as [Faith]"
+        ]
+    },
+    {
+        "name": "Brook", 
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 12,
+        "uniqueTo":"Straw Hat Pirates",
+        "promotions": ["Mugiwara"],
+        "uniques": [
+            "Limited to [1] per Civilization", 
+            "Unbuildable",
+            "Instantly provides [1] [brook] <upon being defeated>",
+            "This Unit takes [99] damage <when above [0] [brook]>",
+            "This Unit gains the [Fainted] promotion <when above [0] [brook]>",
+
+            "Earn [100]% of the damage done to [All] units as [Culture]"
+        ]
+    }
+]

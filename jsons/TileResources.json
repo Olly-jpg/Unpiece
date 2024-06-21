@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Speed Improvement",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Not shown on world screen <when below [1] [Speed Improvement]>", "Stockpiled", "Cannot be traded"]
+    },
+    {
+        "name": "Strength Improvement",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Not shown on world screen <when below [1] [Strength Improvement]>", "Stockpiled", "Cannot be traded"]
+    },
+
+    {
+        "name": "Pregnancy",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Not shown on world screen <when below [1] [Pregnancy]>", "Stockpiled", "Cannot be traded"]
+    },
+    {
+        "name": "Hunger",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", "Cannot be traded"]
+    },
+
+    {
+        "name": "luffy",
+        "resourceType": "Bonus",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+    },
+    {
+        "name": "zoro",
+        "resourceType": "Bonus",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+    },
+    {
+        "name": "nami",
+        "resourceType": "Bonus",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+    },
+    {
+        "name": "usopp",
+        "resourceType": "Bonus",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+    },
+    {
+        "name": "sanji",
+        "resourceType": "Bonus",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+    },
+    {
+        "name": "chopper",
+        "resourceType": "Bonus",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+    },
+    {
+        "name": "robin",
+        "resourceType": "Bonus",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+    },
+    {
+        "name": "franky",
+        "resourceType": "Bonus",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+    },
+    {
+        "name": "brook",
+        "resourceType": "Bonus",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+    },
+
+    {
+        "name": "Semla",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", "Cannot be traded", "Not shown on world screen <when number of [Hunger] is different than [0]>"]
+    },
+    {
+        "name": "Oshiruko",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", "Cannot be traded", "Not shown on world screen <when number of [Hunger] is different than [3]>"]
+    },
+    {
+        "name": "Doughnuts",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", "Cannot be traded", "Not shown on world screen <when number of [Hunger] is different than [4]>"]
+    },
+    {
+        "name": "Seafood Risotto",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", "Cannot be traded", "Not shown on world screen <when number of [Hunger] is different than [5]>"]
+    },
+    {
+        "name": "Meat",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", "Cannot be traded", "Not shown on world screen <when number of [Hunger] is different than [6]>"]
+    },
+    {
+        "name": "Hakari",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", "Cannot be traded", "Not shown on world screen <when number of [Hunger] is different than [7]>"]
+    },
+    {
+        "name": "Soba",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", "Cannot be traded", "Not shown on world screen <when number of [Hunger] is different than [8]>"]
+    },
+    {
+        "name": "Cherry Pie",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", "Cannot be traded", "Not shown on world screen <when number of [Hunger] is different than [9]>"]
+    }
+]

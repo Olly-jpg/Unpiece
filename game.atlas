@@ -1,111 +1,146 @@
 
 game.png
-size: 2048, 2048
+size: 2048, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 NationIcons/Straw Hat Pirates
   rotate: false
-  xy: 4, 108
+  xy: 1092, 108
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/God Usopp
-  rotate: false
-  xy: 1044, 1564
-  size: 96, 96
-  orig: 96, 96
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Monkey D. Luffy
-  rotate: false
-  xy: 1180, 1700
-  size: 96, 96
-  orig: 96, 96
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Nami
+TileSets/AbsoluteUnits/Units/Brook
   rotate: false
   xy: 4, 4
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Nico Robin
+TileSets/AbsoluteUnits/Units/Chopper
   rotate: false
-  xy: 140, 140
+  xy: 1500, 140
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Roronoa Zoro
+TileSets/AbsoluteUnits/Units/Franky
   rotate: false
-  xy: 524, 524
+  xy: 108, 4
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Tony Tony Chopper
+TileSets/AbsoluteUnits/Units/Luffy
   rotate: false
-  xy: 660, 660
+  xy: 1604, 140
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Vinsmoke Sanji
+TileSets/AbsoluteUnits/Units/Nami
   rotate: false
-  xy: 1044, 1460
+  xy: 212, 4
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
-UnitIcons/God Usopp
+TileSets/AbsoluteUnits/Units/Robin
   rotate: false
-  xy: 4, 1284
-  size: 512, 512
-  orig: 512, 512
+  xy: 1708, 140
+  size: 96, 96
+  orig: 96, 96
   offset: 0, 0
   index: -1
-UnitIcons/Monkey D. Luffy
+TileSets/AbsoluteUnits/Units/Sanji
   rotate: false
-  xy: 4, 764
-  size: 512, 512
-  orig: 512, 512
+  xy: 316, 4
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Usopp
+  rotate: false
+  xy: 1812, 140
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Zoro
+  rotate: false
+  xy: 420, 4
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+UnitIcons/Brook
+  rotate: false
+  xy: 4, 108
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Chopper
+  rotate: false
+  xy: 140, 108
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Franky
+  rotate: false
+  xy: 412, 108
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Luffy
+  rotate: false
+  xy: 548, 108
+  size: 128, 128
+  orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Nami
   rotate: false
-  xy: 524, 1284
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-UnitIcons/Nico Robin
-  rotate: false
-  xy: 1044, 1668
+  xy: 684, 108
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Roronoa Zoro
+UnitIcons/Robin
   rotate: false
-  xy: 4, 244
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-UnitIcons/Tony Tony Chopper
-  rotate: false
-  xy: 524, 628
+  xy: 820, 108
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Vinsmoke Sanji
+UnitIcons/Sanji
   rotate: false
-  xy: 524, 764
-  size: 512, 512
-  orig: 512, 512
+  xy: 956, 108
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Usopp
+  rotate: false
+  xy: 1228, 108
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Zoro
+  rotate: false
+  xy: 1364, 108
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fainted
+  rotate: false
+  xy: 276, 108
+  size: 128, 128
+  orig: 128, 128
   offset: 0, 0
   index: -1
