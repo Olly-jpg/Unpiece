@@ -47,18 +47,83 @@
     },
     {
         "name": "CLONE_UPGRADE",
-        "text": "From now on clones ...",
+        "text": "Choose an upgrade for clones",
         "choices": [
             {
-                "text": "Become stronger",
-                "conditions": ["when number of [Strength Improvement] is less than [12]"],
-                "triggeredUniques": ["Instantly provides [1] [Strength Improvement]"]
+                "text": "[+10]% Strength",
+                "conditions": ["when number of [Strength Improvement] is less than [10]"],
+                "triggeredUniques": ["Instantly provides [1] [Strength Improvement]", "Instantly provides [1] [Total Upgrades]"]
             },
             {
-                "text": "Become faster",
-                "conditions": ["when number of [Speed Improvement] is less than [12]"],
-                "triggeredUniques": ["Instantly provides [1] [Speed Improvement]"]
+                "text": "[+20]% Strength",
+                "conditions": ["when number of [Strength Improvement] is greater than [9]", "when number of [Strength Improvement] is less than [30]"],
+                "triggeredUniques": ["Instantly provides [1] [Strength Improvement]", "Instantly provides [1] [Total Upgrades]"]
+            },
+            {
+                "text": "[+1] Movement",
+                "conditions": ["when number of [Speed Improvement] is less than [12]", "when number of [Strength Improvement] is greater than [9]"],
+                "triggeredUniques": ["Instantly provides [1] [Speed Improvement]", "Instantly provides [1] [Total Upgrades]"]
+            },
+            {
+                "text": "May heal outside of friendly territory",
+                "conditions": ["when number of [Heal Improvement] is equal to [0]"],
+                "triggeredUniques": ["Instantly provides [1] [Heal Improvement] Improvement]", "Instantly provides [1] [Total Upgrades]"]
+            },
+            {
+                "text": "[Heals [10] damage if it kills a unit] (up to 50)",
+                "conditions": ["when number of [Heal Improvement] is less than [6]"],
+                "triggeredUniques": ["Instantly provides [1] [Heal Improvement]", "Instantly provides [1] [Total Upgrades]"]
+            },
+            {
+                "text": "All healing effects doubled",
+                "conditions": ["when number of [Heal Improvement] is equal to [6]"],
+                "triggeredUniques": ["Instantly provides [1] [Heal Improvement] Improvement]", "Instantly provides [1] [Total Upgrades]"]
+            },
+
+            {
+                "text": "Excess Food converted to Production when under construction",
+                "conditions": ["when number of [[Excess Food converted to Production when under construction] Improvement] is equal to [0]"],
+                "triggeredUniques": ["Instantly provides [1] [[Excess Food converted to Production when under construction] Improvement]", "Instantly provides [1] [Total Upgrades]"]
+            },
+            {
+                "text": "Eliminates combat penalty for attacking over a river",
+                "conditions": ["when number of [[Eliminates combat penalty for attacking over a river] Improvement] is equal to [0]"],
+                "triggeredUniques": ["Instantly provides [1] [[Eliminates combat penalty for attacking over a river] Improvement]", "Instantly provides [1] [Total Upgrades]"]
+            },
+            {
+                "text": "Unit will heal every turn, even if it performs an action",
+                "conditions": ["when number of [[Unit will heal every turn, even if it performs an action] Improvement] is equal to [0]"],
+                "triggeredUniques": ["Instantly provides [1] [[Unit will heal every turn, even if it performs an action] Improvement]", "Instantly provides [1] [Total Upgrades]"]
+            },
+            {
+                "text": "Damage is ignored when determining unit Strength",
+                "conditions": ["when number of [[Damage is ignored when determining unit Strength] Improvement] is equal to [0]"],
+                "triggeredUniques": ["Instantly provides [1] [[Damage is ignored when determining unit Strength] Improvement]", "Instantly provides [1] [Total Upgrades]"]
+            },
+
+            {
+                "text": "Invisible to non-adjacent units",
+                "conditions": ["when number of [[Invisible to non-adjacent units] Improvement] is equal to [0]", "when number of [Total Upgrades] is greater than [20]"],
+                "triggeredUniques": ["Instantly provides [1] [[Invisible to non-adjacent units] Improvement]", "Instantly provides [1] [Total Upgrades]"]
+            },
+            {
+                "text": "[1] additional attacks per turn",
+                "conditions": ["when number of [Attack Improvement] is less than [2]", "when number of [Total Upgrades] is greater than [21]"],
+                "triggeredUniques": ["Instantly provides [1] [Attack Improvement]", "Instantly provides [1] [Total Upgrades]"]
+            },
+            {
+                "text": "Can move after attacking",
+                "conditions": ["when number of [[Can move after attacking] Improvement] is equal to [0]", "when number of [Total Upgrades] is greater than [22]"],
+                "triggeredUniques": ["Instantly provides [1] [[Can move after attacking] Improvement]", "Instantly provides [1] [Total Upgrades]"]
+            },
+
+
+            {
+                "text": "Free [Clone] appears",
+                "conditions": [],
+                "triggeredUniques": ["Free [Clone] appears"]
             }
+            
         ]
     },
     {

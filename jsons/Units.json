@@ -28,7 +28,7 @@
 	{
 		"name": "Clone",
 		"unitType": "Civilian",
-		"cost": 100,
+		"cost": 200,
 		"movement": 2,
 		"strength": 10,
 		"uniqueTo": "Germa Kingdom",
@@ -46,19 +46,56 @@
 			"[+1] Movement <when above [10] [Speed Improvement]>",
 			"[+1] Movement <when above [11] [Speed Improvement]>",
 
-			"[+20]% Strength <when number of [Strength Improvement] is equal to [1]>",
-			"[+40]% Strength <when number of [Strength Improvement] is equal to [2]>",
-			"[+60]% Strength <when number of [Strength Improvement] is equal to [3]>",
-			"[+80]% Strength <when number of [Strength Improvement] is equal to [4]>",
-			"[+100]% Strength <when number of [Strength Improvement] is equal to [5]>",
-			"[+120]% Strength <when number of [Strength Improvement] is equal to [6]>",
-			"[+140]% Strength <when number of [Strength Improvement] is equal to [7]>",
-			"[+160]% Strength <when number of [Strength Improvement] is equal to [8]>",
-			"[+180]% Strength <when number of [Strength Improvement] is equal to [9]>",
-			"[+200]% Strength <when number of [Strength Improvement] is equal to [10]>",
-			"[+220]% Strength <when number of [Strength Improvement] is equal to [11]>",
-			"[+240]% Strength <when number of [Strength Improvement] is equal to [12]>"
+			"[+10]% Strength <when number of [Strength Improvement] is equal to [1]>",
+			"[+20]% Strength <when number of [Strength Improvement] is equal to [2]>",
+			"[+30]% Strength <when number of [Strength Improvement] is equal to [3]>",
+			"[+40]% Strength <when number of [Strength Improvement] is equal to [4]>",
+			"[+50]% Strength <when number of [Strength Improvement] is equal to [5]>",
+			"[+60]% Strength <when number of [Strength Improvement] is equal to [6]>",
+			"[+70]% Strength <when number of [Strength Improvement] is equal to [7]>",
+			"[+80]% Strength <when number of [Strength Improvement] is equal to [8]>",
+			"[+90]% Strength <when number of [Strength Improvement] is equal to [9]>",
+			"[+100]% Strength <when number of [Strength Improvement] is equal to [10]>",
 
+			"[+120]% Strength <when number of [Strength Improvement] is equal to [11]>",
+			"[+140]% Strength <when number of [Strength Improvement] is equal to [12]>",
+            "[+160]% Strength <when number of [Strength Improvement] is equal to [13]>",
+			"[+180]% Strength <when number of [Strength Improvement] is equal to [14]>",
+            "[+200]% Strength <when number of [Strength Improvement] is equal to [15]>",
+			"[+220]% Strength <when number of [Strength Improvement] is equal to [16]>",
+            "[+240]% Strength <when number of [Strength Improvement] is equal to [17]>",
+			"[+260]% Strength <when number of [Strength Improvement] is equal to [18]>",
+            "[+280]% Strength <when number of [Strength Improvement] is equal to [19]>",
+			"[+300]% Strength <when number of [Strength Improvement] is equal to [20]>",
+
+            "[+320]% Strength <when number of [Strength Improvement] is equal to [21]>",
+			"[+340]% Strength <when number of [Strength Improvement] is equal to [22]>",
+            "[+360]% Strength <when number of [Strength Improvement] is equal to [23]>",
+			"[+380]% Strength <when number of [Strength Improvement] is equal to [24]>",
+            "[+400]% Strength <when number of [Strength Improvement] is equal to [25]>",
+			"[+420]% Strength <when number of [Strength Improvement] is equal to [26]>",
+            "[+440]% Strength <when number of [Strength Improvement] is equal to [27]>",
+			"[+460]% Strength <when number of [Strength Improvement] is equal to [28]>",
+            "[+480]% Strength <when number of [Strength Improvement] is equal to [29]>",
+			"[+500]% Strength <when number of [Strength Improvement] is equal to [30]>",
+
+            "May heal outside of friendly territory <when above [0] [Heal Improvement]>",
+            "Heals [10] damage if it kills a unit <when number of [Heal Improvement] is equal to [2]>",
+            "Heals [20] damage if it kills a unit <when number of [Heal Improvement] is equal to [3]>",
+            "Heals [30] damage if it kills a unit <when number of [Heal Improvement] is equal to [4]>",
+            "Heals [40] damage if it kills a unit <when number of [Heal Improvement] is equal to [5]>",
+            "Heals [50] damage if it kills a unit <when number of [Heal Improvement] is equal to [6]>",
+            "All healing effects doubled <when number of [Heal Improvement] is equal to [7]>",
+            
+            "[1] additional attacks per turn <when number of [Attack Improvement] is equal to [1]>",
+            "[2] additional attacks per turn <when number of [Attack Improvement] is equal to [2]>",
+
+            "Damage is ignored when determining unit Strength <when above [0] [[Damage is ignored when determining unit Strength] Improvement]>",
+            "Eliminates combat penalty for attacking over a river <when above [0] [[Eliminates combat penalty for attacking over a river] Improvement]>",
+            "Excess Food converted to Production when under construction <when above [0] [[Excess Food converted to Production when under construction] Improvement]>",
+            "Unit will heal every turn, even if it performs an action <when above [0] [[Unit will heal every turn, even if it performs an action] Improvement]>",
+            "Invisible to non-adjacent units <when above [0] [[Invisible to non-adjacent units] Improvement]>",
+            "Can move after attacking <when above [0] [[Can move after attacking] Improvement]>"
 		]
 	},
 	{
@@ -103,7 +140,6 @@
         "strength": 10,
         "uniqueTo": "Straw Hat Pirates",
         "replaces": "Warrior",
-        "promotions": ["Mugiwara"],
         "uniques": [
             "Limited to [1] per Civilization", 
             "Unbuildable",
@@ -117,7 +153,7 @@
             "Heal this unit by [15] HP <upon being promoted>", 
 
             "Heal this unit by [2] HP <costs [+2 Food] stats><for [0] movement><when below [81] HP><in [Friendly Land] tiles>",
-            "This Unit gains the [preparation for GEAR II] promotion<costs [+10 Food] stats><for all movement><if it hasn't used other actions yet><for units without [GEAR II]><after [60] turns>"]
+            "This Unit gains the [preparation for GEAR 2] promotion<costs [+10 Food] stats><for all movement><if it hasn't used other actions yet><for units without [GEAR II]><after [60] turns>"]
 
     },
     {
@@ -126,7 +162,6 @@
         "movement": 2,
         "strength": 15,
         "uniqueTo": "Straw Hat Pirates",
-        "promotions": ["Mugiwara"],
         "uniques": [
             "Limited to [1] per Civilization", 
             "Unbuildable",
@@ -148,7 +183,6 @@
         "rangedStrength": 10,
         "range": 1,
         "uniqueTo":"Straw Hat Pirates",
-        "promotions": ["Mugiwara"],
         "uniques": [
             "Limited to [1] per Civilization", 
             "Unbuildable",
@@ -168,7 +202,6 @@
         "rangedStrength": 15,
         "range": 3,
         "uniqueTo":"Straw Hat Pirates",
-        "promotions": ["Mugiwara"],
         "uniques": [
             "Limited to [1] per Civilization", 
             "Unbuildable",
@@ -188,7 +221,6 @@
         "movement": 3,
         "strength": 12,
         "uniqueTo": "Straw Hat Pirates",
-        "promotions": ["Mugiwara"],
         "uniques": [
             "Limited to [1] per Civilization", 
             "Unbuildable",
@@ -206,7 +238,6 @@
         "unitType": "Sword",
         "movement": 3,
         "uniqueTo": "Straw Hat Pirates",
-        "promotions": ["Mugiwara"],
         "uniques": [
             "Limited to [1] per Civilization", 
             "Unbuildable",
@@ -223,7 +254,6 @@
         "movement": 2,
         "strength": 10,
         "uniqueTo":"Straw Hat Pirates",
-        "promotions": ["Mugiwara"],
         "uniques": [
             "Limited to [1] per Civilization", 
             "Unbuildable",
@@ -241,7 +271,6 @@
         "movement": 2,
         "strength": 10,
         "uniqueTo":"Straw Hat Pirates",
-        "promotions": ["Mugiwara"],
         "uniques": [
             "Limited to [1] per Civilization", 
             "Unbuildable",
@@ -259,7 +288,6 @@
         "movement": 2,
         "strength": 12,
         "uniqueTo":"Straw Hat Pirates",
-        "promotions": ["Mugiwara"],
         "uniques": [
             "Limited to [1] per Civilization", 
             "Unbuildable",

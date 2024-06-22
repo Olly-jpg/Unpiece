@@ -1,14 +1,62 @@
 [
     {
+        "name": "Total Upgrades",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Not shown on world screen <when below [1] [Total Upgrades]>", "Stockpiled", "Cannot be traded"]
+    },
+
+
+    {
         "name": "Speed Improvement",
         "resourceType": "Strategic",
-        "uniques": ["Will not be displayed in Civilopedia", "Not shown on world screen <when below [1] [Speed Improvement]>", "Stockpiled", "Cannot be traded"]
+        "uniques": ["Will not be displayed in Civilopedia", "Not shown on world screen", "Stockpiled", "Cannot be traded"]
     },
     {
         "name": "Strength Improvement",
         "resourceType": "Strategic",
-        "uniques": ["Will not be displayed in Civilopedia", "Not shown on world screen <when below [1] [Strength Improvement]>", "Stockpiled", "Cannot be traded"]
+        "uniques": ["Will not be displayed in Civilopedia", "Not shown on world screen", "Stockpiled", "Cannot be traded"]
     },
+    {
+        "name": "Attack Improvement",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Not shown on world screen", "Stockpiled", "Cannot be traded"]
+    },
+    {
+        "name": "Heal Improvement",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Not shown on world screen", "Stockpiled", "Cannot be traded"]
+    },
+    {
+        "name": "[Damage is ignored when determining unit Strength] Improvement",
+        "resourceType": "Bonus",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+    },
+    {
+        "name": "[Eliminates combat penalty for attacking over a river] Improvement",
+        "resourceType": "Bonus",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+    },
+    {
+        "name": "[Excess Food converted to Production when under construction] Improvement",
+        "resourceType": "Bonus",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+    },
+    {
+        "name": "[Unit will heal every turn, even if it performs an action] Improvement",
+        "resourceType": "Bonus",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+    },
+    {
+        "name": "[Invisible to non-adjacent units] Improvement",
+        "resourceType": "Bonus",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+    },
+    {
+        "name": "[Can move after attacking] Improvement",
+        "resourceType": "Bonus",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+    },
+
 
     {
         "name": "Pregnancy",
@@ -18,7 +66,7 @@
     {
         "name": "Hunger",
         "resourceType": "Strategic",
-        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", "Cannot be traded"]
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", "Cannot be traded", "Not shown on world screen <for [non-[Totto Land]]>"]
     },
 
     {
@@ -70,7 +118,7 @@
     {
         "name": "Semla",
         "resourceType": "Strategic",
-        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", "Cannot be traded", "Not shown on world screen <when number of [Hunger] is different than [0]>"]
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", "Cannot be traded", "Not shown on world screen <for [non-[Totto Land]]>", "Not shown on world screen <when number of [Hunger] is different than [0]>"]
     },
     {
         "name": "Oshiruko",

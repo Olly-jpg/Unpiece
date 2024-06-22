@@ -5,9 +5,9 @@
     },
 
     {
-        "name": "preparation for GEAR II",
+        "name": "preparation for GEAR 2",
         "uniques": [
-            "This Unit loses the [preparation for GEAR II] promotion<upon turn end>",
+            "This Unit loses the [preparation for GEAR 2] promotion<upon turn end>",
             "This Unit gains the [GEAR II] promotion<upon turn end>"
         ]
     },
@@ -20,12 +20,6 @@
             "[5] Movement",
             "[2] additional attacks per turn",
             "[+50]% Strength"
-        ]
-    },
-    {
-        "name": "Mugiwara",
-        "uniques": [
-            "[+10]% Strength <upon entering a new era>"
         ]
     },
     {
